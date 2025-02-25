@@ -48,7 +48,7 @@ The following table outlines all possible commands and arguments:
 | `s3 delete` | `--bucket-name` | Deletes an S3 bucket |
 | `route53 create-zone` | `--vpc-id`, `--domain-name` | Creates a Route 53 hosted zone |
 | `route53 list-zones` | None | Lists all hosted zones |
-| `route53 add-record` | `--zone-id`, `--record-name`, `--record-type`, `--record-value` | Adds a DNS record |
+| `route53 add-record` | `--zone-id`, `--record-name`, `--record-type`, `--record-value` | Adds a DNS record (currently supports A, CNAME, TXT, record types)|
 | `route53 delete` | `--zone-id` | Deletes a hosted zone |
 | `all list-all` | None | Lists all AWS resources created using the CLI |
 | `all terminate-all` | None | Deletes all AWS resources created using the CLI |
