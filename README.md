@@ -12,7 +12,7 @@ This AWS CLI Tool is a command-line interface designed to manage AWS resources s
 ### Installation Steps
 1. **Clone the Repository**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/EladMadar/Python-AWS-PE-Elad-Madar.git
    cd aws-cli-tool
    ```
 
