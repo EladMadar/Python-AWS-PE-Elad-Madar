@@ -16,7 +16,7 @@ This AWS CLI Tool is a command-line interface designed to manage AWS resources s
    cd aws-cli-tool
    ```
 
-2. **Create and Activate a Virtual Environment**
+2. **Create and Activate a Virtual Environment (Optional, but recommended)**
    ```sh
    python3 -m venv venv
    source venv/bin/activate  # On Windows use venv\Scripts\activate
